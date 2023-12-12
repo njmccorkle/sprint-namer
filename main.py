@@ -84,10 +84,7 @@ def get_words(word_type: str, quantity: int, start_letter: str):
     inFile = open(f"./resources/{word_type}.txt", "r")
     word_list = inFile.read().splitlines()
     if start_letter:
-        filtered_word_list = [
-            x for x in word_list if x.lower().startswith(start_letter.lower())
-        ]
-        return choices(filtered_word_list, k=quantity)
+        word_list = [x for x in word_list if x.lower().startswith(start_letter.lower())]
     return choices(word_list, k=quantity)
 
 
