@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
 from random import choices
 
-# https://www.sysadmintutorials.com/build-ultimate-free-password-generator-python-flask/
-
 app = Flask(__name__)
 
 
