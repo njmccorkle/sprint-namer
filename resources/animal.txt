@@ -160,6 +160,7 @@ Finch
 Fish
 Fisher
 Flamingo
+Fletcher
 Flounder
 Flycatcher
 Fossa
